@@ -331,3 +331,42 @@
             color: #666;
             font-size: 14px;
           }
+          .properties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            padding: 10px;
+          }
+          
+          .property-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+          }
+          
+          .property-card:hover {
+            transform: scale(1.02);
+          }
+          
+          .property-image {
+            width: 100%;
+            height: auto;
+          }
+          
+          .property-details {
+            padding: 15px;
+          }
+          
+          .property-price {
+            font-weight: bold;
+            color: #444;
+            margin: 10px 0;
+          }
+          
+          .property-description {
+            color: #666;
+            font-size: 14px;
+          }
