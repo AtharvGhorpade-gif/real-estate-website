@@ -235,3 +235,32 @@
                 max-width: 98vw;
             }
         }
+        .property-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            font-family: 'Arial', sans-serif;
+          }
+          
+          .property-card img,
+          .property-card iframe {
+            max-width: 100%;
+            border-radius: 8px;
+          }
+          
+          .property-card h3 {
+            font-size: 22px;
+            margin-bottom: 5px;
+            color: #333;
+          }
+          
+          .property-card p {
+            font-size: 16px;
+            color: #555;
+          }
