@@ -57,12 +57,13 @@ body {
    border-radius: 12px;
    overflow: hidden;
    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
 .property-card:hover {
-   transform: translateY(-5px);
-   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+   transform: translateY(-5px) scale(1.02);
+   box-shadow: 0 12px 40px rgba(102, 126, 234, 0.2), 0 8px 30px rgba(0, 0, 0, 0.15);
+   filter: brightness(1.05);
 }
 
 .property-image {
@@ -73,7 +74,7 @@ body {
    align-items: center;
    justify-content: center;
    color: white;
-   font-size: 3rem !important; 
+   font-size: 7rem !important; 
 }
 
 .property-details {
@@ -369,4 +370,8 @@ footer {
  .property-description {
    color: #666;
    font-size: 14px;
+ }
+ body {
+   background-color: yellow !
+    important
  }
